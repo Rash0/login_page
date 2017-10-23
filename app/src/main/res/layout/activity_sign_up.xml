@@ -2,8 +2,8 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/ScrollView01"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:background="@drawable/orange_bg">
 
         <LinearLayout
@@ -17,7 +17,6 @@
             android:alpha="0.9">
 
             <de.hdodenhof.circleimageview.CircleImageView
-                android:id="@+id/logo"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_gravity="center"
@@ -42,10 +41,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:theme="@style/TextLabel">
-                <android.support.design.widget.TextInputEditText
+                <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:ems="10"
                     android:hint="Username"
                     android:textColorHint="@android:color/white"
                     android:inputType="textPersonName"
@@ -57,10 +55,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:theme="@style/TextLabel">
-                <android.support.design.widget.TextInputEditText
+                <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:ems="10"
                     android:hint="Email"
                     android:textColorHint="@android:color/white"
                     android:inputType="textEmailAddress"
@@ -77,10 +74,9 @@
                 app:passwordToggleTint="#FFB74D"
                 android:theme="@style/TextLabel">
 
-                <android.support.design.widget.TextInputEditText
+                <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:ems="10"
                     android:hint="Password"
                     android:inputType="textPassword"
                     android:textColor="@android:color/white" />
@@ -95,10 +91,9 @@
                 app:passwordToggleTint="#FFB74D"
                 android:theme="@style/TextLabel">
 
-                <android.support.design.widget.TextInputEditText
+                <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:ems="10"
                     android:hint="Confirm Password"
                     android:inputType="textPassword"
                     android:textColor="@android:color/white" />

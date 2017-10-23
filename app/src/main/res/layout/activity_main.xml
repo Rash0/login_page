@@ -75,8 +75,6 @@
         <ImageButton
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:contentDescription="Login with Facebook"
-            android:id="@+id/fbImageButton"
             android:background="@drawable/image_button_pressed"
             android:layout_marginStart="110dp"
             android:layout_marginEnd="20dp"
@@ -93,7 +91,6 @@
         <ImageButton
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:contentDescription="Login with Google"
             android:id="@+id/googleImageButton"
             android:background="@drawable/google_button_pressed"
             android:layout_marginTop="25dp"
