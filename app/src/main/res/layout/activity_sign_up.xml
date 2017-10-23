@@ -13,7 +13,6 @@
             android:weightSum="1"
             android:layout_margin="20dp"
             android:background="@drawable/black_bg"
-            android:id="@+id/black_bg"
             android:alpha="0.9">
 
             <de.hdodenhof.circleimageview.CircleImageView
